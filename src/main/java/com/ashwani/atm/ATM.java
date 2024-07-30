@@ -14,7 +14,7 @@ public class ATM {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainPage().setVisible(true);
+                new MainPage();
             }
         });
 
